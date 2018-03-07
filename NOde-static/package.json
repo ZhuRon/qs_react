@@ -1,0 +1,15 @@
+{
+  "name": "NOde-static",
+  "version": "1.0.0",
+  "description": "node web server\r url 可以进行向外的资源暴露\r 异步无阻塞\r 静态资源，放在cdn服务器上\r 提供image css js html等静态文件\r 动态内容 ejs <%= %>区分开来（需要更多的服务器资源用来计算等）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.2.0"
+  }
+}
